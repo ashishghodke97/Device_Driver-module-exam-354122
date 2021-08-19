@@ -21,9 +21,6 @@ should Wake-up the sleeping write function to copy remaining data. */
 #include <linux/cdev.h> 	
 #include <linux/semaphore.h> 
 #include <linux/uaccess.h>  	
-#include<linux/kdev_t.h>
-#include<linux/wait.h>
-#include<linux/sched.h>
 
 wait_queue_head_t sample_waitq;
 
