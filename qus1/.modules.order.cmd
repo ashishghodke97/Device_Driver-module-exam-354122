@@ -1,0 +1,1 @@
+cmd_/home/ashish/device_drivers/lab_examDD/qus1/modules.order := {   echo /home/ashish/device_drivers/lab_examDD/qus1/kern_sync.ko; :; } | awk '!x[$$0]++' - > /home/ashish/device_drivers/lab_examDD/qus1/modules.order
